@@ -493,3 +493,12 @@ def truncate(df):
     test_batch_size = int(new_length / kfold)+1
 
     return df.reset_index(drop=True), groups_ids, test_batch_size
+
+def split_features_label(df, features):
+    attributes_df = df[features]
+    label_df = df["target"]
+
+    x = attributes_df
+    y = label_df
+    
+    return x, y
