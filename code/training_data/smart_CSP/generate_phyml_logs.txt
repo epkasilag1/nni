@@ -1,0 +1,90 @@
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 real_msa.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Model name:					 Custom
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 1.000000
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 ML
+                . Optimise tree topology:			 no
+                . Evaluated tree:				 file "BioNJ"
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 no
+                . Run ID:					 bionj
+                . Random seed:					 1743435394
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+. 236 patterns found (out of a total of 240 sites). 
+
+. 11 sites without polymorphism (4.58%).
+
+. Computing pairwise distances...
+
+. Building BioNJ tree...
+
+. This analysis requires at least 6 Mo of memory space.
+
+. (    0 sec) [    -10816.5178] [Branch lengths     ]
+. (    0 sec) [    -10704.0515] [Nucleotide freqs.  ]
+. (    1 sec) [    -10704.0515] [Branch lengths     ]
+. (    1 sec) [    -10689.3310] [Nucleotide freqs.  ]
+. (    1 sec) [    -10689.3310] [Branch lengths     ]
+. (    1 sec) [    -10686.5078] [Nucleotide freqs.  ]
+. (    1 sec) [    -10686.5078] [Branch lengths     ]
+. (    1 sec) [    -10684.9319] [Nucleotide freqs.  ]
+. (    1 sec) [    -10684.9319] [Branch lengths     ]
+. (    1 sec) [    -10684.0719] [Nucleotide freqs.  ]
+. (    1 sec) [    -10684.0719] [Branch lengths     ]
+. (    1 sec) [    -10683.5488] [Nucleotide freqs.  ]
+. (    1 sec) [    -10683.5488] [Branch lengths     ]
+. (    1 sec) [    -10683.2462] [Nucleotide freqs.  ]
+. (    1 sec) [    -10683.2462] [Branch lengths     ]
+. (    2 sec) [    -10683.0686] [Nucleotide freqs.  ]
+. (    2 sec) [    -10683.0686] [Branch lengths     ]
+. (    2 sec) [    -10682.9693] [Nucleotide freqs.  ]
+. (    2 sec) [    -10682.9693] [Branch lengths     ]
+. (    2 sec) [    -10682.9132] [Nucleotide freqs.  ]
+. (    2 sec) [    -10682.9132] [Branch lengths     ]
+. (    2 sec) [    -10682.8828] [Nucleotide freqs.  ]
+. (    2 sec) [    -10682.8828] [Branch lengths     ]
+. (    2 sec) [    -10682.8659] [Nucleotide freqs.  ]
+. (    2 sec) [    -10682.8659] [Branch lengths     ]
+. (    2 sec) [    -10682.8568] [Nucleotide freqs.  ]
+. (    2 sec) [    -10682.8568] [Branch lengths     ]
+. (    2 sec) [    -10682.8519] [Nucleotide freqs.  ]
+. (    2 sec) [    -10682.8519] [Branch lengths     ]
+. (    2 sec) [    -10682.8493] [Nucleotide freqs.  ]
+. (    2 sec) [    -10682.8493] [Branch lengths     ]
+. (    3 sec) [    -10682.8480] [Nucleotide freqs.  ]
+. (    3 sec) [    -10682.8480] [Branch lengths     ]
+. (    3 sec) [    -10682.8473] [Nucleotide freqs.  ]
+. (    3 sec) [    -10682.8473] [Nucleotide freqs.  ]
+
+. Log likelihood of the current tree: -10682.847293.
+
+. Printing the most likely tree in file 'real_msa.phy_phyml_tree_bionj.txt'...
+
+. Time used 0h0m3s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+./PhyML-3.1/PhyML-3.1_linux64 -i training_data/smart_CSP/real_msa.phy -m 012345 -f m -v e -a e -c 4 -o l -d nt -n 1 -b 0 --no_memory_check --run_id bionj
+DONE phyml execution: training_data/smart_CSP/real_msa.phy_phyml_tree_bionj.txt

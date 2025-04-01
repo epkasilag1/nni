@@ -1,0 +1,82 @@
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 real_msa.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Model name:					 Custom
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 1.000000
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 ML
+                . Optimise tree topology:			 no
+                . Evaluated tree:				 file "BioNJ"
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 no
+                . Run ID:					 bionj
+                . Random seed:					 1743434328
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+. 2436 patterns found (out of a total of 3993 sites). 
+
+. 1733 sites without polymorphism (43.40%).
+
+. Computing pairwise distances...
+
+. Building BioNJ tree...
+
+. This analysis requires at least 65 Mo of memory space.
+
+. (    0 sec) [    -59598.6183] [Branch lengths     ]
+. (    3 sec) [    -57456.9858] [Nucleotide freqs.  ]
+. (    3 sec) [    -57456.9858] [Branch lengths     ]
+. (    5 sec) [    -57155.8199] [Nucleotide freqs.  ]
+. (    6 sec) [    -57155.8199] [Branch lengths     ]
+. (    8 sec) [    -57119.9977] [Nucleotide freqs.  ]
+. (    8 sec) [    -57119.9977] [Branch lengths     ]
+. (   10 sec) [    -57114.2135] [Nucleotide freqs.  ]
+. (   10 sec) [    -57114.2135] [Branch lengths     ]
+. (   12 sec) [    -57112.9166] [Nucleotide freqs.  ]
+. (   12 sec) [    -57112.9166] [Branch lengths     ]
+. (   13 sec) [    -57112.5588] [Nucleotide freqs.  ]
+. (   13 sec) [    -57112.5588] [Branch lengths     ]
+. (   15 sec) [    -57112.4443] [Nucleotide freqs.  ]
+. (   15 sec) [    -57112.4443] [Branch lengths     ]
+. (   16 sec) [    -57112.4027] [Nucleotide freqs.  ]
+. (   16 sec) [    -57112.4027] [Branch lengths     ]
+. (   18 sec) [    -57112.3867] [Nucleotide freqs.  ]
+. (   18 sec) [    -57112.3867] [Branch lengths     ]
+. (   20 sec) [    -57112.3803] [Nucleotide freqs.  ]
+. (   20 sec) [    -57112.3803] [Branch lengths     ]
+. (   21 sec) [    -57112.3777] [Nucleotide freqs.  ]
+. (   21 sec) [    -57112.3777] [Branch lengths     ]
+. (   23 sec) [    -57112.3767] [Nucleotide freqs.  ]
+. (   23 sec) [    -57112.3767] [Branch lengths     ]
+. (   25 sec) [    -57112.3763] [Nucleotide freqs.  ]
+. (   25 sec) [    -57112.3763] [Nucleotide freqs.  ]
+
+. Log likelihood of the current tree: -57112.376258.
+
+. Printing the most likely tree in file 'real_msa.phy_phyml_tree_bionj.txt'...
+
+. Time used 0h0m25s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+./PhyML-3.1/PhyML-3.1_linux64 -i training_data/2618/real_msa.phy -m 012345 -f m -v e -a e -c 4 -o l -d nt -n 1 -b 0 --no_memory_check --run_id bionj
+DONE phyml execution: training_data/2618/real_msa.phy_phyml_tree_bionj.txt
